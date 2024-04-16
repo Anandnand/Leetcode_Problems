@@ -4,6 +4,8 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+//Time complexity=O(n^3)
+
 public class FourthSum {
 	public static List<List<Integer>> fourSum(int[] nums, int target) {
 		Arrays.sort(nums);
